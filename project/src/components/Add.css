@@ -1,0 +1,40 @@
+
+.react {
+    background-image: url('https://img.freepik.com/premium-vector/colorful-mesh-blur-design-ideal-creating-visually-appealing-content_884160-3688.jpg?semt=ais_hybrid'); /* Add your image path here */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    border-radius: 8px; /* Rounded corners */
+    padding: 2rem; /* Padding for the container */
+    width: 400px; /* Width of the form */
+    margin: 5% auto; /* Center horizontally and add margin on top */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Shadow effect */
+    backdrop-filter: blur(5px); /* Blur effect behind the form for readability */
+}
+
+.sub {
+    margin-bottom: 1.5rem; /* Space below each input */
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for inputs */
+    border-radius: 4px; /* Rounded corners for inputs */
+}
+
+.h {
+    text-align: center; /* Center the heading text */
+    margin-bottom: 1rem; /* Space below the heading */
+    color: #fff; /* White text color for contrast */
+}
+
+.b {
+    width: 100%; /* Full width for the button */
+    padding: 0.75rem; /* Button padding */
+    background-color: #007BFF; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* No border for button */
+    border-radius: 4px; /* Rounded button corners */
+    font-size: 1rem; /* Font size for button text */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Transition effect for hover */
+}
+
+.b:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
